@@ -24,11 +24,6 @@ pipeline {
             }
         }
 
-        stage('Run Application') {
-            steps {
-                sh 'java -jar target/MyMavenSeleniumApp01-1.0-SNAPSHOT.jar'
-            }
-        }
     }
 
     post {
